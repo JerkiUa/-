@@ -1,0 +1,161 @@
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-color: #222222;
+    overflow-x: hidden;
+}
+.header {
+    max-width: 1920px;
+    background-color: #222222;
+    margin: 10px auto 0 auto;
+
+}
+
+.conteiner {
+    max-width: 1080px;
+    margin: 0 auto 0 auto;
+}
+
+.header-row {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.gaz-logo {
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    margin-bottom: 15px;
+}
+
+.line {
+    margin:0 22px 0 22px;
+}
+
+.logo-text {
+    padding-top: 26px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-text>span {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #2194FF;
+}
+
+.number {
+    font-family: 'Russo One';
+    font-style: normal;
+    /* font-weight: 400; */
+    font-size: 24px;
+    line-height: 29px;
+    color: #F1F1F1;
+}
+
+.number-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration-line: underline ;
+    color: #2194FF;
+    cursor: pointer;
+
+}
+
+@media (max-width: 1360px) {
+    .conteiner {
+        /* margin: auto 100px auto auto; */
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+@media (max-width: 970px) {
+    .logo {
+        max-width: 200px;
+        /* max-width: calc(80px + (296 - 80) * ((100vw - 320px)/ (970px - 320px))); */
+    }
+    .line {
+        display: none;
+    }
+    .logo-text>span {
+        display: none;
+    }
+    .number {
+        font-size: 15px;
+        line-height: 0px;
+        margin-top: 20px;
+    }
+    .number-text {
+        font-size: 15px;
+        
+        
+    }
+}
+
+@media (max-width: 880px) {
+    .conteiner {
+        /* margin: auto 100px auto auto; */
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .conteiner {
+        /* margin: auto 100px auto auto; */
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .header-row {
+        margin-top: 5px;
+    }
+    .gaz-logo {
+        margin: 0px;
+        height: 50px;
+    }
+    .number-text {
+        
+    }
+    .header-row {
+        height: 50px;
+        margin: 0;
+    }
+    .day {
+        display: none;
+    }
+    .night {
+        display: none;
+    }
+    .conteiner {
+        /* margin: auto 100px auto auto; */
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 450px) {
+    
+    
+    .logo {
+        max-width: 120px;
+        /* max-width: calc(80px + (296 - 80) * ((100vw - 320px)/ (970px - 320px))); */
+    }
+    .conteiner {
+        /* margin: auto 100px auto auto; */
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

@@ -1,0 +1,152 @@
+
+
+.list-header {
+  font-weight: 700;
+}
+
+.list-content {
+  background-color: rgb(216, 246, 239);
+}
+
+.fade-block {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(41,49,51, 0.9);
+  z-index: 10;
+}
+
+.card-header {
+  font-family: 'Russo One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #2194FF;
+  padding: 30px 220px 26px 30px;
+
+}
+.form-modal {
+  width: 75px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: rgba(45, 45, 45, 0.5);
+  padding: 17px 304px 18px 22px;
+  background: #FFFFFF;
+  border: 1px solid #DEDEDE;
+  box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin-bottom: 24px;
+  margin-left: 30px;
+}
+
+.modal-window {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  background: #FFFFFF;
+backdrop-filter: blur(20px);
+}
+
+.content-hidden {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+[data-name], [data-tab] {
+  cursor: pointer;
+}
+.modal-body {
+  background-color: #F1F1F1;
+  /* box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25); */
+  border-radius: 33px;
+  opacity: initial;
+  width: 460px;
+  height: 410px;
+}
+
+.btn-modal>a>img {
+  max-width: 360px;
+  text-align: center;
+}
+
+.btn-modal {
+  text-align: center;
+  border-radius: 30px;
+  
+}
+.btn-modal-text {
+  font-family: 'Russo One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #F1F1F1;
+  text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
+  margin-top: -60px;
+}
+
+@media (max-width: 800px) {
+  .btn-modal>a>img {
+    max-width: 300px;
+  }
+  .btn-modal-text {
+    font-size: 16px;
+    margin-top: -50px;
+  }
+  .card {
+    text-align: center;
+  }
+  .form-modal {
+    margin-left: 0px;
+  }
+  .card-header {
+    padding: 30px 0 26px 15px;
+    text-align: left;
+    max-width: 310px;
+    
+    
+  }
+  .modal-body {
+    max-width: 350px;
+    height: 380px;
+  }
+}
+
+@media (max-width: 400px) {
+  .btn-modal>a>img {
+    max-width: 200px;
+  }
+  .btn-modal-text {
+    font-size: 12px;
+    margin-top: -40px;
+  }
+  .form-modal {
+    margin-left: 0px;
+  }
+  .card-header {
+    padding: 30px 0 26px 15px;
+    text-align: left;
+    max-width: 310px;
+    font-size: 20px;
+    
+  }
+  .modal-body {
+    max-width: 280px;
+    height: 350px;
+  }
+}

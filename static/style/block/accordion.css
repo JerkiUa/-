@@ -1,0 +1,67 @@
+.accordion-head {
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #2194FF;
+    padding: 34px 0 24px 0;
+}
+
+.accordion {
+    background-image: url(../font-cost.png);
+}
+
+.accordion-tab {
+    padding-bottom: 30px;
+}
+
+.accordion-vopros {
+    border-bottom-style: 1px;
+    border-bottom: 2px;
+    border-top: 2px solid rgba(255,255,255,0.3);
+    border-bottom: 2px solid rgba(255,255,255,0.3);
+}
+.vopros {
+    display: flex;
+    cursor: pointer;
+}
+
+.vopros>img {
+    padding-right: 22px;
+    padding-left: 33px;
+}
+
+.vopros>h4 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #F1F1F1;
+    padding: 24px 0 24px 0;
+}
+
+.poi {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #F1F1F1;
+    padding-bottom: 24px;
+    padding-left: 70px;
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .vopros>h4 {
+        font-size: 13px;
+    }
+}

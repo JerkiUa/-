@@ -1,0 +1,143 @@
+.specialist-head {
+    max-width: 518px;
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #F1F1F1;
+}
+
+.specialist-header {
+    padding: 52px 0 0 25px;
+}
+
+.img-compani {
+    display: flex;
+    max-width: 1080px;
+    justify-content: space-between;
+    padding-top: 59px;
+    padding-bottom: 34px;
+}
+
+.specialist-h3 {
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #2194FF;
+}
+
+.img-btn-margin {
+    padding-top: 10px;
+    cursor: pointer;
+    /* margin-bottom: 48px; */
+
+}
+.to44ka {
+    padding-bottom: 48px;
+}
+
+.form-control {
+    width: 75px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: rgba(45, 45, 45, 0.5);
+    padding: 17px 323px 18px 22px;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+.form-vopros {
+    width: 85px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: rgba(45, 45, 45, 0.5);
+    padding: 17px 314px 79px 22px;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+.block-specialist {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 1000px) {
+    .specialist-head {
+    font-size: 33px;
+    }
+    .specialist-h3{
+    font-size: 33px;
+    }
+    .img-compani{
+    display: none;
+    }
+    .specialist-foto{
+    display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .specialist-head {
+    font-size: 30px;
+    }
+    .specialist-h3{
+    font-size: 30px;
+    }
+    .specialist-header {
+    padding: 52px 0 0 15px;
+    }
+    .form-text>input{
+    padding-right: 230px;
+    }
+    .form-vopros{
+    padding-right: 215px;
+    }
+}
+
+@media (max-width: 600px) {
+    .specialist-head {
+    font-size: 27px;
+    }
+    .specialist-h3{
+    font-size: 27px;
+    }
+    .specialist-header {
+    padding: 52px 0 0 5px;
+    }
+}
+
+@media (max-width: 400px) {
+    .specialist-head {
+    font-size: 20px;
+    }
+    .specialist-h3{
+    font-size: 15px;
+    }
+    .form-text>input{
+    padding-right: 165px;
+    }
+    .form-vopros{
+    padding-right: 150px;
+    }
+    .img-btn-margin {
+    max-width: 250px;
+    
+    }
+}
